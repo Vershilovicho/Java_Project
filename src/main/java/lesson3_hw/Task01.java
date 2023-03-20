@@ -1,5 +1,6 @@
 package lesson3_hw;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -22,3 +23,5 @@ public class Task01 {
         arrayList.stream().filter(n -> n % 2 == 0).forEach(System.out::println);
     }
 }
+
+
